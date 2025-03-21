@@ -1,0 +1,58 @@
+# Maven  
+target/  
+pom.xml.tag  
+pom.xml.releaseBackup  
+pom.xml.versionsBackup  
+dependency-reduced-pom.xml  
+release.properties  
+mvnw  
+mvnw.cmd  
+.settings/  
+
+ 
+# Dipendenze (evita di versionare le librerie installate)  
+*.jar  
+*.war  
+*.ear  
+*.iml  
+
+# IDE e tool specifici  
+   
+
+## IntelliJ IDEA  
+.idea/  
+*.iws  
+*.iml  
+*.ipr  
+out/  
+
+## VS Code  
+# Configurazioni sensibili  
+.env  
+*.key  
+*.pem  
+*.p12  
+*.jks  
+*.keystore  
+
+# File di log e cache  
+logs/  
+*.log  
+hs_err_pid*  
+!.gitkeep  
+
+# Database temporanei  
+*.db  
+*.sqlite  
+
+# Sistema operativo  
+.DS_Store  
+Thumbs.db
+
+*.log
+
+/build/
+
+config/local-settings.json
+
+/node modules/
